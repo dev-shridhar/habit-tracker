@@ -5,9 +5,9 @@ date = datetime.now()
 
 
 pixela_endpoint ="https://pixe.la/v1/users"
-TOKEN ="iargirug945garga"
-USER_NAME ="shridhar"
-GRAPH_ID = "graph100"
+TOKEN ="token"
+USER_NAME ="your user name"
+GRAPH_ID = "yur graph id"
 user_params ={
     "token" : TOKEN,
     "username" : USER_NAME ,
@@ -39,8 +39,7 @@ pixela_data={
     "quantity":"5",
 
 }
-# response = requests.post(url=pixel_creation_endpoint,json=pixela_data,headers=headers)
-# print(response.text)
+
 
 update_endpoint =f"{pixela_endpoint}/{USER_NAME}/graphs/{GRAPH_ID}/20211017"
 
